@@ -1,0 +1,6 @@
+C:\Users\rafael.queiroz\Documents\GitHub\Design Patterns\Factory\bin\Debug\Factory.exe.config
+C:\Users\rafael.queiroz\Documents\GitHub\Design Patterns\Factory\bin\Debug\Factory.exe
+C:\Users\rafael.queiroz\Documents\GitHub\Design Patterns\Factory\bin\Debug\Factory.pdb
+C:\Users\rafael.queiroz\Documents\GitHub\Design Patterns\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Documents\GitHub\Design Patterns\Factory\obj\Debug\Factory.exe
+C:\Users\rafael.queiroz\Documents\GitHub\Design Patterns\Factory\obj\Debug\Factory.pdb

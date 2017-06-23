@@ -1,0 +1,5 @@
+C:\Users\rafael.queiroz\Documents\GitHub\Design Patterns\Prototype\bin\Debug\Prototype.exe.config
+C:\Users\rafael.queiroz\Documents\GitHub\Design Patterns\Prototype\bin\Debug\Prototype.exe
+C:\Users\rafael.queiroz\Documents\GitHub\Design Patterns\Prototype\bin\Debug\Prototype.pdb
+C:\Users\rafael.queiroz\Documents\GitHub\Design Patterns\Prototype\obj\Debug\Prototype.exe
+C:\Users\rafael.queiroz\Documents\GitHub\Design Patterns\Prototype\obj\Debug\Prototype.pdb
