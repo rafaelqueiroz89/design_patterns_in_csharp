@@ -5,10 +5,11 @@
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public class PersonFactory
+        public static class PersonFactory
         {
             public static int ContPerson = 0;
-            public Person CreatePerson(string name)
+
+            public static Person CreatePerson(string name)
             {
                 Person person = new Person(name);
                 ContPerson++;

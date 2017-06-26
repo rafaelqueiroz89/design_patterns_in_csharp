@@ -4,3 +4,9 @@ C:\Users\rafael.queiroz\Documents\GitHub\Design Patterns\Factory\bin\Debug\Facto
 C:\Users\rafael.queiroz\Documents\GitHub\Design Patterns\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
 C:\Users\rafael.queiroz\Documents\GitHub\Design Patterns\Factory\obj\Debug\Factory.exe
 C:\Users\rafael.queiroz\Documents\GitHub\Design Patterns\Factory\obj\Debug\Factory.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Factory\obj\Debug\Factory.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Factory\obj\Debug\Factory.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Factory\bin\Debug\Factory.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Factory\bin\Debug\Factory.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Factory\bin\Debug\Factory.pdb
