@@ -1,0 +1,79 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "0cbb3e89b37c86095fc66b8bfe5f4e5040941f1d"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "singleton/1.0.0": {
+        "dependencies": {
+          "Autofac": "4.6.0",
+          "NUnit": "3.7.1",
+          "morelinq": "2.5.0"
+        },
+        "runtime": {
+          "Singleton.dll": {}
+        }
+      },
+      "autofac/4.6.0": {
+        "runtime": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        }
+      },
+      "morelinq/2.5.0": {
+        "dependencies": {
+          "System.ValueTuple": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/MoreLinq.dll": {}
+        }
+      },
+      "nunit/3.7.1": {
+        "runtime": {
+          "lib/netstandard1.6/nunit.framework.dll": {}
+        }
+      },
+      "system.valuetuple/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.0/System.ValueTuple.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "singleton/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "autofac/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y+7B007u3cYpjU4THI9/i2pSyRnHjZtRJOrjGiHYPH5C32jJZ5njWjgLVnI6nmsYjUrYcWjXLfB13J3ztd37cw==",
+      "path": "autofac/4.6.0",
+      "hashPath": "autofac.4.6.0.nupkg.sha512"
+    },
+    "morelinq/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-42KSECZUj630lmmLANR/+YTthtS5c4QmpqjYVTGYfH1Y8T6/icn/ekPEykKMlgl3J30zeRgQMIh6pu9A6/t4kQ==",
+      "path": "morelinq/2.5.0",
+      "hashPath": "morelinq.2.5.0.nupkg.sha512"
+    },
+    "nunit/3.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vUTICvR3uqw6OTOcwsfz22KjVk8xFcNdz22XnGPL3itQU7+HSV+8xySjGmVkMWZ4IPbaV/+T33C775EEtiEYIA==",
+      "path": "nunit/3.7.1",
+      "hashPath": "nunit.3.7.1.nupkg.sha512"
+    },
+    "system.valuetuple/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cNLEvBX3d6MMQRZe3SMFNukVbitDAEpVZO17qa0/2FHxZ7Y7PpFRpr6m2615XYM/tYYYf0B+WyHNujqIw8Luwg==",
+      "path": "system.valuetuple/4.3.0",
+      "hashPath": "system.valuetuple.4.3.0.nupkg.sha512"
+    }
+  }
+}

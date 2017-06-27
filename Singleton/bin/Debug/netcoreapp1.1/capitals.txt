@@ -1,0 +1,8 @@
+Tokyo
+33200000
+New York
+17000000
+Sao Paulo
+17700000
+Delhi
+14300000

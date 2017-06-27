@@ -1,0 +1,6 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Builder\bin\Debug\Builder.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Builder\bin\Debug\Builder.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Builder\bin\Debug\Builder.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Builder\obj\Debug\Builder.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Builder\obj\Debug\Builder.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Builder\obj\Debug\Builder.pdb

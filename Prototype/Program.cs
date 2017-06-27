@@ -7,6 +7,20 @@ using System.Runtime.Serialization.Formatters.Binary;
 /// </summary>
 namespace Prototype
 {
+    public static class ExtensionMethods
+    {
+        public static T DeepCopy<T>(this T self)
+        {
+            MemoryStream stream = new MemoryStream();
+            BinaryFormatter formatter = new BinaryFormatter();
+            formatter.Serialize(stream, self);
+            stream.Seek(0, SeekOrigin.Begin);
+            object copy = formatter.Deserialize(stream);
+            stream.Close();
+            return (T)copy;
+        }
+    }
+
 
     public class Point
     {
@@ -44,8 +58,7 @@ namespace Prototype
 
             //    Foo foo = new Foo { Stuff = 42, Whatever = "abc" };
 
-            //    Foo foo2 = foo.DeepCopy(); // crashes without [Serializable]
-            //    //Foo foo2 = foo.DeepCopyXml();
+            //    //Foo foo2 = foo.DeepCopyXml(); // crashes without [Serializable]
 
             //    foo2.Whatever = "xyz";
             //    WriteLine(foo);
