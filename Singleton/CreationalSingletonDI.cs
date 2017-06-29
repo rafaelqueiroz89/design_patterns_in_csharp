@@ -17,13 +17,14 @@ namespace DotNetDesignPatternDemos.Creational.SingletonInDI
 
     public class EventBroker
     {
-
+        public int x { get; set; }
+        public int y { get; set; }
     }
-
+    
     // socially acceptable 
     public class SingletonDI
     {
-        static void Main_()
+        static void Main()
         {
             var builder = new ContainerBuilder();
             builder.RegisterType<EventBroker>().SingleInstance();
@@ -32,6 +33,8 @@ namespace DotNetDesignPatternDemos.Creational.SingletonInDI
             using (var c = builder.Build())
             {
                 var foo1 = c.Resolve<Foo>();
+                foo1.Broker.x = 1;
+                foo1.Broker.y = 0;
                 var foo2 = c.Resolve<Foo>();
 
                 WriteLine(ReferenceEquals(foo1, foo2));

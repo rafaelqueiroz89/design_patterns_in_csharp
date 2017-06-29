@@ -1,0 +1,9 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Adapter\bin\Debug\Adapter.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Adapter\bin\Debug\Adapter.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Adapter\bin\Debug\Adapter.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Adapter\bin\Debug\MoreLinq.dll
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Adapter\bin\Debug\System.ValueTuple.dll
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Adapter\bin\Debug\MoreLinq.xml
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Adapter\obj\Debug\Adapter.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Adapter\obj\Debug\Adapter.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Adapter\obj\Debug\Adapter.pdb
