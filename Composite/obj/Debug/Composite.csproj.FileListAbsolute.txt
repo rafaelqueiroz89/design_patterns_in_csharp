@@ -1,0 +1,6 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Composite\bin\Debug\Composite.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Composite\bin\Debug\Composite.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Composite\bin\Debug\Composite.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Composite\obj\Debug\Composite.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Composite\obj\Debug\Composite.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Composite\obj\Debug\Composite.csprojResolveAssemblyReference.cache

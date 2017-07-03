@@ -1,0 +1,8 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Bridge\obj\Debug\Bridge.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Bridge\bin\Debug\Bridge.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Bridge\bin\Debug\Bridge.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Bridge\bin\Debug\Bridge.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Bridge\bin\Debug\Autofac.dll
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Bridge\bin\Debug\Autofac.xml
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Bridge\obj\Debug\Bridge.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Bridge\obj\Debug\Bridge.pdb
