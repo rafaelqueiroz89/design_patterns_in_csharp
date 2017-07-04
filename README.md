@@ -1,7 +1,7 @@
 <b>Design Patterns in C# 7.0</b>
 
 
-In this repository I am doing some exercises and examples about the GOF design patterns in C# 7, so it's pretty much updated. There is a problem.jpg file on each project folder that is an exercise, and the solution is on the Program.cs file (with the Main method), there are also some other pratical examples.
+In this repository I am doing some exercises and examples about the GOF design patterns in C# 7, so it's pretty much updated. There is a problem.jpg file on each project folder that is an exercise, and the solution is on the Program.cs file (with the Main method), there are also some other practical examples.
 
 /*Some considerations: */
 
