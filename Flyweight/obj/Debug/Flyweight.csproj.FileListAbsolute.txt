@@ -1,0 +1,8 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Flyweight\bin\Debug\Flyweight.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Flyweight\bin\Debug\Flyweight.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Flyweight\bin\Debug\Flyweight.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Flyweight\bin\Debug\nunit.framework.dll
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Flyweight\bin\Debug\nunit.framework.xml
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Flyweight\obj\Debug\Flyweight.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Flyweight\obj\Debug\Flyweight.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Flyweight\obj\Debug\Flyweight.csprojResolveAssemblyReference.cache

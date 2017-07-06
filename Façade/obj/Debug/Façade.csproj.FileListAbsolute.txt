@@ -1,0 +1,6 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Façade\bin\Debug\Façade.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Façade\bin\Debug\Façade.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Façade\bin\Debug\Façade.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Façade\obj\Debug\Façade.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Façade\obj\Debug\Façade.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Façade\obj\Debug\Façade.pdb

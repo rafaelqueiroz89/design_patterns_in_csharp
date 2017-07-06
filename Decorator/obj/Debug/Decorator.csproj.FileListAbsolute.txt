@@ -1,0 +1,6 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Decorator\bin\Debug\Decorator.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Decorator\bin\Debug\Decorator.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Decorator\bin\Debug\Decorator.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Decorator\obj\Debug\Decorator.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Decorator\obj\Debug\Decorator.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Decorator\obj\Debug\Decorator.pdb

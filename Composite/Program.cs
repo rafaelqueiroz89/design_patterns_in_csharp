@@ -11,6 +11,12 @@ using System.Collections.ObjectModel;
 /// 
 /// The composite pattern focus on building Parent and Child. Like a menubar. 
 /// You can have a single value or many values added to the container through an interface
+/// 
+/// Objects can use other objects via inheritance/composition
+/// Some composed and singular objects need similar/identical behavior
+/// Composite design patter lets us treat both types of objects uniformly
+/// C# has special support for the enumaration concept
+/// A single object can masquerade as a collection with yield return this;
 /// </summary>
 
 namespace Coding.Exercise
