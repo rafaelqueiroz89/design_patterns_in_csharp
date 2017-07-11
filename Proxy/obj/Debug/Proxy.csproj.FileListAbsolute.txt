@@ -1,0 +1,8 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Proxy\obj\Debug\Proxy.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Proxy\bin\Debug\Proxy.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Proxy\bin\Debug\Proxy.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Proxy\bin\Debug\Proxy.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Proxy\bin\Debug\ImpromptuInterface.dll
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Proxy\bin\Debug\ImpromptuInterface.xml
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Proxy\obj\Debug\Proxy.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Proxy\obj\Debug\Proxy.pdb

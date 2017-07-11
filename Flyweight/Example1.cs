@@ -42,10 +42,10 @@ namespace DotNetDesignPatternDemos.Structural.Flyweight.Users
     [TestFixture]
     public class Demo
     {
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
 
-        }
+        //}
 
         public void ForceGC()
         {

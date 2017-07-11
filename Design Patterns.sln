@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Façade", "Façade\Façade.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{A4F130C4-E526-4FC5-B6DD-2CB0E0ED2147}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{F1897504-735D-4724-9600-E3E061D83E16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain Of Responsibility", "Chain Of Responsibility\Chain Of Responsibility.csproj", "{A7105EA4-97B3-4A6F-9E42-7756500DC0BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{A4F130C4-E526-4FC5-B6DD-2CB0E0ED2147}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4F130C4-E526-4FC5-B6DD-2CB0E0ED2147}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4F130C4-E526-4FC5-B6DD-2CB0E0ED2147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1897504-735D-4724-9600-E3E061D83E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1897504-735D-4724-9600-E3E061D83E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1897504-735D-4724-9600-E3E061D83E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1897504-735D-4724-9600-E3E061D83E16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7105EA4-97B3-4A6F-9E42-7756500DC0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7105EA4-97B3-4A6F-9E42-7756500DC0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7105EA4-97B3-4A6F-9E42-7756500DC0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7105EA4-97B3-4A6F-9E42-7756500DC0BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
