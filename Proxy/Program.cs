@@ -54,11 +54,12 @@ namespace Proxy
         public ResponsiblePerson(Person person)
         {
             this.person = person;
+            Age = person.Age;
         }
 
         public string Drink()
         {
-            if (person.Age >= 18)
+            if (Age >= 18)
                 return person.Drink();
             else
                 return "too young";
@@ -71,7 +72,7 @@ namespace Proxy
 
         public string Drive()
         {
-            if (person.Age > 15)
+            if (Age > 15)
                 return person.Drive();
             else
                 return "too young";
@@ -79,7 +80,7 @@ namespace Proxy
 
         public string Vote()
         {
-            if (person.Age >= 18)
+            if (Age >= 18)
                 return person.Vote();
             else
                 return "Too young to vote";

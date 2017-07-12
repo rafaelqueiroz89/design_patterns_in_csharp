@@ -1,0 +1,6 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Chain Of Responsibility\obj\Debug\Chain Of Responsibility.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Chain Of Responsibility\bin\Debug\Chain Of Responsibility.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Chain Of Responsibility\bin\Debug\Chain Of Responsibility.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Chain Of Responsibility\bin\Debug\Chain Of Responsibility.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Chain Of Responsibility\obj\Debug\Chain Of Responsibility.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Chain Of Responsibility\obj\Debug\Chain Of Responsibility.pdb
