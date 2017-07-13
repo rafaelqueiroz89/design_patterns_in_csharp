@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using static System.Console;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
@@ -12,31 +11,8 @@ using System.Collections.ObjectModel;
 /// </summary>
 namespace Chain_Of_Responsibility
 {
-    using System;
-    using System.Collections.Generic;
-
     namespace Coding.Exercise
     {
-        public static class Helper
-        {
-            public static int GetGoblinsInGame(Game game)
-            {
-                int count = 0;
-                foreach (Goblin g in game.Creatures)
-                    count++;
-
-                return count;
-            }
-
-            public static int GetGoblinKingInGame(Game game)
-            {
-                foreach (Goblin g in (game.Creatures))
-                    if (g.ImAking == true)
-                        return 1;
-                return 0;
-            }
-        }
-
         public abstract class Creature
         {
             public int Attack { get; set; }
@@ -46,15 +22,13 @@ namespace Chain_Of_Responsibility
 
         public class Goblin : Creature
         {
-            public bool ImAking;
-
             public Goblin(Game game)
             {
                 CreatureModifier = new CreatureModifier(this);
                 Attack = 1;
                 Defense = 1;
 
-                for (int i = 0; i < Helper.GetGoblinsInGame(game); i++)
+                for (int i = 0; i < game.Creatures.Count; i++)
                 {
                     CreatureModifier.Add(new GoblinsInGameModifier(game.Creatures[i]));
                     CreatureModifier.Add(new GoblinsInGameModifier(this));
@@ -63,7 +37,7 @@ namespace Chain_Of_Responsibility
 
             public override string ToString()
             {
-                return $"{nameof(Attack)}: {Attack}, {nameof(Defense)}: {Defense}";
+                return $"{nameof(Goblin)}, {nameof(Attack)}: {Attack}, {nameof(Defense)}: {Defense}";
             }
         }
 
@@ -73,9 +47,8 @@ namespace Chain_Of_Responsibility
             {
                 Attack = 3;
                 Defense = 3;
-                ImAking = true;
 
-                for (int i = 0; i < Helper.GetGoblinsInGame(game); i++)
+                for (int i = 0; i < game.Creatures.Count; i++)
                 {
                     CreatureModifier.Add(new GoblinKingInGameModifier(game.Creatures[i]));
                     CreatureModifier.Add(new GoblinKingInGameModifier(this));
@@ -84,13 +57,34 @@ namespace Chain_Of_Responsibility
 
             public override string ToString()
             {
-                return $"{nameof(Attack)}: {Attack}, {nameof(Defense)}: {Defense}";
+                return $"{nameof(GoblinKing)}, {nameof(Attack)}: {Attack}, {nameof(Defense)}: {Defense}";
             }
         }
 
         public class Game
         {
-            public IList<Creature> Creatures = new List<Creature>();
+            public IList<Creature> Creatures;
+
+            public Game()
+            {
+                Creatures = new Creatures(this);
+            }
+        }
+
+        public class Creatures : Collection<Creature>
+        {
+            private Game game;
+
+            public Creatures(Game game)
+            {
+                this.game = game;
+            }
+
+            //no need for this but it is a good exercise to know that you can override the IList with a Collection
+            protected override void InsertItem(int index, Creature creature)
+            {
+                base.InsertItem(index, creature);
+            }
         }
 
         public class CreatureModifier
@@ -138,11 +132,13 @@ namespace Chain_Of_Responsibility
 
             public override void Handle()
             {
-                creature.Defense++;
-                base.Handle();
+                if (creature is GoblinKing == false)
+                {
+                    creature.Defense++;
+                    base.Handle();
+                }
             }
         }
-
 
         public class Demo
         {
@@ -162,9 +158,17 @@ namespace Chain_Of_Responsibility
                 var goblinKing = new GoblinKing(game);
                 game.Creatures.Add(goblinKing);
 
-                
-                Console.ReadKey();
+                var goblinKing2 = new GoblinKing(game);
+                game.Creatures.Add(goblinKing2);
+
+                WriteLine($"{goblin}");
+                WriteLine($"{goblin2}");
+                WriteLine($"{goblin3}");
+                WriteLine($"{goblinKing}");
+                WriteLine($"{goblinKing2}");
+                ReadKey();
             }
         }
     }
 }
+

@@ -1,0 +1,6 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Command\bin\Debug\Command.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Command\bin\Debug\Command.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Command\bin\Debug\Command.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Command\obj\Debug\Command.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Command\obj\Debug\Command.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Command\obj\Debug\Command.pdb

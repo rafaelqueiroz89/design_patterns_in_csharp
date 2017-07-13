@@ -7,6 +7,8 @@ These examples are for <i>Structural Patterns</i>, it means that Structural Desi
 
 There are also <i>Architecture Patterns</i>, that stands out for MVC (Model-View-Controller) or MVVM (Model View View-Model) that won't be covered in this repository.
 
+Note that this repository stands for KISS (<i>keep it stupidly simple</i>) so there are no separation of class in files or helper classes, all is done in one document.
+
 /*Some considerations: */
 
 <b>When to use the Builder and the Factory?</b>
