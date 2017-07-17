@@ -1,0 +1,8 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Interpreter\obj\Debug\Interpreter.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Interpreter\bin\Debug\Interpreter.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Interpreter\bin\Debug\Interpreter.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Interpreter\bin\Debug\Interpreter.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Interpreter\obj\Debug\Interpreter.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Interpreter\obj\Debug\Interpreter.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Interpreter\obj\Debug\Interop.MSScriptControl.dll
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Interpreter\obj\Debug\Interpreter.csproj.ResolveComReference.cache

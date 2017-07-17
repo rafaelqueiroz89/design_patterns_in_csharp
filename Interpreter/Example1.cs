@@ -169,7 +169,7 @@ namespace DotNetDesignPatternDemos.Behavioral.Interpreter.Handmade
 
         //public static void Main()
         //{
-        //    var input = "(13+4)-(12+1)";
+        //    var input = "(13+4+10)";
         //    var tokens = Lex(input);
         //    WriteLine(string.Join("\t", tokens));
 
