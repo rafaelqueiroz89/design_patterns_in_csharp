@@ -5,11 +5,11 @@ using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Windows;
-using ImpromptuInterface;
-using JetBrains.dotMemoryUnit;
-using NUnit.Framework;
 using static System.Console;
 
+/// <summary>
+/// Expose stats of a creature in a nice way. There is only the strenght because it is a demo only.
+/// </summary>
 namespace DesignPatterns.ArrayBackedProperties
 {
     public class Creature : IEnumerable<int>

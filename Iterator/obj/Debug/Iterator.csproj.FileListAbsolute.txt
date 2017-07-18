@@ -1,0 +1,6 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Iterator\obj\Debug\Iterator.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Iterator\bin\Debug\Iterator.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Iterator\bin\Debug\Iterator.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Iterator\bin\Debug\Iterator.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Iterator\obj\Debug\Iterator.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Iterator\obj\Debug\Iterator.pdb
