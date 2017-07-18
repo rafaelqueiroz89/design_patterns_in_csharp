@@ -1,6 +1,6 @@
-﻿using Program;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using static System.Console;
@@ -42,7 +42,7 @@ namespace Program
         {
             public enum Type
             {
-                Integer, Plus, Minus, Lparen, Rparen, Variable
+                Integer, Plus, Minus, Variable
             }
 
             public Type MyType;
@@ -51,7 +51,7 @@ namespace Program
             public Token(Type type, string text)
             {
                 MyType = type;
-                Text = text ?? throw new ArgumentNullException(paramName: nameof(text));
+                Text = text;
             }
 
             public override string ToString()
@@ -59,66 +59,60 @@ namespace Program
                 return $"{Text}";
             }
         }
+    }
 
         public class ExpressionProcessor
         {
-            public static Dictionary<char, int> Variables = new Dictionary<char, int>();
+            public Dictionary<char, int> Variables = new Dictionary<char, int>();
+            private string Input { get; set; }
 
-            public static int? Calculate(string input)
+            public int? Calculate(string input)
             {
-                var result = new List<Token>();
+                var result = new List<BinaryOperation.Token>();
+                Input = input;
 
                 for (int i = 0; i < input.Length; i++)
                 {
                     switch (input[i])
                     {
                         case '+':
-                            result.Add(new Token(Token.Type.Plus, "+"));
+                            result.Add(new BinaryOperation.Token(BinaryOperation.Token.Type.Plus, "+"));
                             break;
                         case '-':
-                            result.Add(new Token(Token.Type.Minus, "-"));
-                            break;
-                        case '(':
-                            result.Add(new Token(Token.Type.Lparen, "("));
-                            break;
-                        case ')':
-                            result.Add(new Token(Token.Type.Rparen, ")"));
+                            result.Add(new BinaryOperation.Token(BinaryOperation.Token.Type.Minus, "-"));
                             break;
                         default:
                             char c = input[i];
                             if (Char.IsLetter(c))
                             {
-                                result.Add(new Token(Token.Type.Variable, c.ToString()));
+                                result.Add(new BinaryOperation.Token(BinaryOperation.Token.Type.Variable, c.ToString()));
                                 break;
                             }
 
-                            var sb = new StringBuilder(input[i].ToString());
-                            for (int j = i + 1; j < input.Length; ++j)
-                            {
-                                if (char.IsDigit(input[j]))
-                                {
-                                    sb.Append(input[j]);
-                                    ++i;
-                                }
-                                else
-                                {
-                                    result.Add(new Token(Token.Type.Integer, sb.ToString()));
-                                    break;
-                                }
-                            }
+                            result.Add(new BinaryOperation.Token(BinaryOperation.Token.Type.Integer, input[i].ToString()));
                             break;
                     }
                 }
 
-                return Parse(result).Value;
+                string newExp;
+                IElement element = ParseVariables(result, out newExp);
+
+                if (newExp == String.Empty && element.Value == 0)
+                    return 0;
+
+                if (newExp != String.Empty)
+                    return Evaluate(newExp);
+                else
+                    return Evaluate(input);
             }
 
-            public static IElement Parse(IReadOnlyList<Token> tokens)
+            public IElement ParseVariables(IReadOnlyList<BinaryOperation.Token> tokens, out string newExp)
             {
                 var result = new BinaryOperation();
+                result.Value = 1;
+                newExp = String.Empty;
                 try
                 {
-
                     for (int i = 0; i < tokens.Count; i++)
                     {
                         var token = tokens[i];
@@ -126,31 +120,25 @@ namespace Program
                         // look at the type of token
                         switch (token.MyType)
                         {
-                            case Token.Type.Variable:
+                            case BinaryOperation.Token.Type.Variable:
                                 bool foundkey = false;
+
+                                if (i != tokens.Count-1)
+                                    if (char.IsLetter(tokens[i + 1].Text[0]))
+                                        throw new Exception();
+
                                 foreach (var x in Variables)
                                 {
                                     if (x.Key.ToString() == token.Text.ToString())
                                     {
                                         foundkey = true;
-                                        result.Value += x.Value;
+                                        newExp = Input.Replace(token.Text, x.Value.ToString());
+                                        result.Value = x.Value;
                                     }
                                 }
 
                                 if (Variables.Count > 0 && foundkey == false)
-                                    result.Value = 0;
-                                break;
-                            case Token.Type.Lparen:
-                                int j = i;
-                                for (; j < tokens.Count; ++j)
-                                    if (tokens[j].MyType == Token.Type.Rparen)
-                                        break; // found it!
-                                               // process subexpression w/o opening (
-                                var subexpression = tokens.Skip(i + 1).Take(j - i - 1).ToList();
-                                MSScriptControl.ScriptControl sc = new MSScriptControl.ScriptControl();
-                                sc.Language = "VBScript";
-
-                                result.Value = Convert.ToInt32((sc.Eval(string.Join("", subexpression))));
+                                    newExp = String.Empty;
                                 break;
                         }
                     }
@@ -159,17 +147,49 @@ namespace Program
                 catch
                 {
                     result.Value = 0;
+                    newExp = String.Empty;
                 }
+
                 return result;
             }
 
+            public static int Evaluate(String input)
+            {
+                String expr = "(" + input + ")";
+                Stack<String> ops = new Stack<String>();
+                Stack<int> vals = new Stack<int>();
+
+                for (int i = 0; i < expr.Length; i++)
+                {
+                    String s = expr.Substring(i, 1);
+                    if (s.Equals("(")) { }
+                    else if (s.Equals("+")) ops.Push(s);
+                    else if (s.Equals("-")) ops.Push(s);
+                    else if (s.Equals(")"))
+                    {
+                        int count = ops.Count;
+                        while (count > 0)
+                        {
+                            String op = ops.Pop();
+                            int v = vals.Pop();
+                            if (op.Equals("+")) v = vals.Pop() + v;
+                            else if (op.Equals("-")) v = vals.Pop() - v;
+                            vals.Push(v);
+
+                            count--;
+                        }
+                    }
+                    else vals.Push(int.Parse(s));
+                }
+                return vals.Pop();
+            }
 
             public static void Main()
             {
-                var input = "(1+b+1)";
-                Variables.Add('b', 1);
-                WriteLine(Calculate(input));
+                ExpressionProcessor ex = new ExpressionProcessor();
+                var input = "0+2-1";
+                ex.Variables.Add('b', 2);
+                WriteLine(ex.Calculate(input));
             }
         }
-    }
 }
