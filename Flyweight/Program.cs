@@ -14,7 +14,7 @@ using System.Collections.Generic;
 /// A space optmization technique that let us use less memory by storing externally the data
 /// associated with smilar objects
 /// </summary>
-namespace Flyweight
+namespace Flyweight 
 {
     class Program
     {
