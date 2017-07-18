@@ -53,4 +53,5 @@ The appeal of design patterns is immortal: we see them in libraries, some of the
  </i>
  
  <b>Use of dotMemory profiling in the Flyweight design pattern</b>
+ 
  <i>In the solution of the Flyweight pattern I make use of the JetBrains (www.jetbrains.com) dotMemory profiler to make some profiling on my tests of the pattern. Documentation can be see here: https://www.jetbrains.com/help/dotmemory/Working_with_dotMemory_Command-Line_Profiler.html although it is not so well documented if you have a free version.</i>
