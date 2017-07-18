@@ -13,7 +13,7 @@ namespace Façade
         static void Main(string[] args)
         {
             // Cria uma instância do Facade
-            Facade concedeCredito = new Facade();
+            Facade concedeCredito = new Facade(); 
 
             // Cria uma instância de um  novo Cliente informando o nome
             Cliente cliente1 = new Cliente("Macoratti");
