@@ -15,7 +15,8 @@ namespace Decorator
 {
     public class Bird
     {
-        public int Age { get; set; }
+        public int Age
+        { get; set; }
 
         public string Fly()
         {
