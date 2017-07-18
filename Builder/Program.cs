@@ -1,4 +1,4 @@
-﻿using System;
+﻿using static System.Console;
 
 /*
  * A builder is a separate component for builing an object
@@ -14,8 +14,8 @@ namespace Builder
         static void Main(string[] args)
         {
             var cb = new CodeBuilder("Person").AddField("Name", "string").AddField("Age", "int");
-            Console.WriteLine(cb);
-            Console.ReadKey();
+            WriteLine(cb);
+            ReadKey();
         }
     }
 }
