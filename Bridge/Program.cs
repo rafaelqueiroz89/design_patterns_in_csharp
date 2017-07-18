@@ -19,7 +19,8 @@ namespace Coding.Exercise
     {
         private IRenderer renderer;
 
-        public string Name { get; set; }
+        public string Name
+        { get; set; }
 
         // a bridge between the shape that's being drawn an
         // the component which actually draws it
