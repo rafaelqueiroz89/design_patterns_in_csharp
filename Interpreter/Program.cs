@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
 using static System.Console;
 
+/// <summary>
+/// Barring simple cases, an interpreter acts in two stages
+/// Lexing turns text into a set of tokens for example: 
+/// 3*(4+5) -> Number[3] Star Lparen Number[4] Plus Number[5] Rparen
+/// So parsed data can be evaluated
+/// </summary>
 namespace Program
 {
     public interface IElement
