@@ -4,7 +4,7 @@
 /// Determine the API you have and the API you need
 /// Create a component which aggregates the adapter, like extending an Interface
 /// Intermediante representations: use caching and other optimizations
-/// </summary>
+/// </summary> 
 namespace Coding.Exercise
 {
     public class Square
