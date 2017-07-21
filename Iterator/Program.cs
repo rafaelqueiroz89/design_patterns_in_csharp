@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using static System.Console;
 
 /// <summary>
 /// This design pattern is simply used to show how the Iterator of loops works, and who makes it happen.
@@ -14,14 +12,17 @@ using System.Threading.Tasks;
 /// 
 /// If you need to Iterate something you don't need to Interface your class with IEnumerable, all you need is
 /// to implement a method called GetEnumerator() with MoveNext() and the Current parameter.
+/// 
+/// Iteration works through duck typing! - you need a GetEnumerator() that yields a type that has 
+/// Current and MoveNext()
 /// </summary>
 namespace Iterator
 {
     public class Node<T>
     {
-        public T Value;
-        public Node<T> Left, Right;
-        public Node<T> Parent;
+        private T Value;
+        private Node<T> Left, Right;
+        private Node<T> Parent;
 
         public Node(T value)
         {
@@ -41,14 +42,74 @@ namespace Iterator
         {
             get
             {
-                // todo!
+                foreach (var node in PreOrderFunc(this))
+                {
+                    yield return node.Value;
+                }
             }
         }
 
-        class Program
+        private IEnumerable<Node<T>> PreOrderFunc(Node<T> current)
+        {
+            if (current.Left != null || current.Right != null)
+                if (current.Parent == null)
+                    yield return current;
+
+            if (current.Parent != null && current.Left != null)
+                yield return current;
+
+            if (current.Left != null)
+            {
+                foreach (var left in PreOrderFunc(current.Left))
+                {
+                    yield return left;
+                }
+            }
+
+            if (current.Right != null)
+            {
+                foreach (var right in PreOrderFunc(current.Right))
+                {
+                    yield return right;
+                }
+            }
+
+            if (current.Left == null || current.Right == null)
+                if (current.Parent != null)
+                    yield return current;
+ 
+
+        }
+    }
+
+    class Program
     {
-        //static void Main(string[] args)
-        //{
-        //}
+        public static void Main()
+        {
+            //first tree
+            //    A
+            //   / \
+            //  B   C
+            //     / \ 
+            //    D   E
+
+            //second tree
+            //    A
+            //   / \
+            //  B   E
+            // / \ 
+            //C   D
+
+            //preorder: ABCDE
+
+
+            var tree1 = new Node<char>('a', new Node<char>('b'), new Node<char>('c', new Node<char>('d'), new Node<char>('e')));
+            var tree2 = new Node<char>('a', new Node<char>('b', new Node<char>('c'), new Node<char>('d')), new Node<char>('e'));
+
+            WriteLine("Tree 1: " + "\n" + string.Join(",", tree1.PreOrder)); ;
+            WriteLine("\n");
+            WriteLine("Tree 2: " + "\n" + string.Join(",", tree2.PreOrder));
+        }
     }
 }
+
