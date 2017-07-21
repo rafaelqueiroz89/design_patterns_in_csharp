@@ -58,7 +58,7 @@ namespace Mediator
 
             public void Broadcast(int n, Participant part)
             {
-                WriteLine("We now have updated results");
+                WriteLine("---------We now have updated values---------");
 
                 foreach (var p in people.Where(p => p.Id != part.Id))
                 {
@@ -69,7 +69,7 @@ namespace Mediator
 
             public void Join(Participant p)
             {
-                string joinMsg = $"Participant {p.Id} joins the chat with value {p.Value} in hands\n";
+                string joinMsg = $"Participant {p.Id} joins with value {p.Value} in hands\n";
                 Write(joinMsg);
                 p.Room = this;
                 people.Add(p);
