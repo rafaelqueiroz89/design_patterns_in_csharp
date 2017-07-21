@@ -1,0 +1,6 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Mediator\obj\Debug\Mediator.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Mediator\bin\Debug\Mediator.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Mediator\bin\Debug\Mediator.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Mediator\bin\Debug\Mediator.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Mediator\obj\Debug\Mediator.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Mediator\obj\Debug\Mediator.pdb
