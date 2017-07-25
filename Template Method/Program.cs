@@ -2,7 +2,7 @@
 using static System.Console;
 
 /// <summary>
-/// Define an algorith at a high level with abstraction definitions.
+/// Define an algorithm at a high level with abstraction definitions.
 /// The Template Method Pattern allow algorithm, with concrete implementations
 /// defined in subclasses. It works with abstraction classes =) with inheritance.
 /// </summary>

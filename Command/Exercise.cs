@@ -59,7 +59,7 @@ namespace Command
         }
     }
 
-    class Program
+    class Exercise
     {
         static void Main(string[] args)
         {

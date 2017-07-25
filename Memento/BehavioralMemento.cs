@@ -59,7 +59,7 @@ namespace DotNetDesignPatternDemos.Behavioral.Memento
         //    var m2 = ba.Deposit(25); // 175
         //    WriteLine(ba);
 
-        //    restore to m1
+        //    //restore to m1
         //    ba.Restore(m1);
         //    WriteLine(ba);
 

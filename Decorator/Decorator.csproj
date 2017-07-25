@@ -46,11 +46,14 @@
     <Compile Include="AdapterDecorator.cs" />
     <Compile Include="MultipleInheritance.cs" />
     <Compile Include="DynamicDecorator.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Exercise.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="exercise.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -16,7 +16,7 @@ using System.Collections.Generic;
 /// </summary>
 namespace Flyweight 
 {
-    class Program
+    class Exercise
     {
         static void Main(string[] args)
         {

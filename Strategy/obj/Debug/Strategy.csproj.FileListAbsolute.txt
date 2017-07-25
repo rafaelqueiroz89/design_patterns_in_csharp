@@ -1,6 +1,5 @@
 C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Strategy\bin\Debug\Strategy.exe.config
 C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Strategy\bin\Debug\Strategy.exe
 C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Strategy\bin\Debug\Strategy.pdb
-C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Strategy\obj\Debug\Strategy.csprojResolveAssemblyReference.cache
 C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Strategy\obj\Debug\Strategy.exe
 C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Strategy\obj\Debug\Strategy.pdb

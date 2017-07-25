@@ -82,7 +82,7 @@ namespace Iterator
         }
     }
 
-    class Program
+    class Exercise
     {
         public static void Main()
         {

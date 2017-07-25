@@ -11,7 +11,7 @@ namespace Singleton
     /// Singleton is said to be a bad idea because: when singleton is used you might have to use the same object lots of times
     /// 
     /// </summary>
-    class Program
+    class Exercise
     {
         //this class verifies if a determined object is Singleton or not
         public class SingletonTester
