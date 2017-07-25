@@ -4,6 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// An object can change. Like a bank account that gets deposits and withdraws.
+/// There are different ways of navigating those changes
+/// One way is to record every change (Command Pattern) and teach a command to 'undo itself'.
+/// Another is to simply save snapshots of the system
+/// 
+/// A token/handle representing the system state. Let us roll back
+/// to the state when the token was
+/// generated. May or may not direclty expose state information.
+/// 
+/// Used to implement undo/redo of an object (pretty good)
+/// </summary>
 namespace Memento
 {
     public class MyString
