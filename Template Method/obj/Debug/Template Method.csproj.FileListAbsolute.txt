@@ -1,0 +1,6 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Template Method\bin\Debug\Template Method.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Template Method\bin\Debug\Template Method.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Template Method\bin\Debug\Template Method.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Template Method\obj\Debug\Template Method.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Template Method\obj\Debug\Template Method.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Template Method\obj\Debug\Template Method.pdb

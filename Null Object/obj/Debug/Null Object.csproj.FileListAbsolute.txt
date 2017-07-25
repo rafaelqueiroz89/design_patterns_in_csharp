@@ -1,0 +1,8 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Null Object\obj\Debug\Null Object.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Null Object\bin\Debug\Null Object.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Null Object\bin\Debug\Null Object.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Null Object\bin\Debug\Null Object.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Null Object\bin\Debug\ImpromptuInterface.dll
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Null Object\bin\Debug\ImpromptuInterface.xml
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Null Object\obj\Debug\Null Object.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Null Object\obj\Debug\Null Object.pdb

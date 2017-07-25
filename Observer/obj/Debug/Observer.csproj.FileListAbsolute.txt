@@ -1,0 +1,6 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Observer\obj\Debug\Observer.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Observer\bin\Debug\Observer.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Observer\bin\Debug\Observer.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Observer\bin\Debug\Observer.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Observer\obj\Debug\Observer.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Observer\obj\Debug\Observer.pdb

@@ -1,0 +1,10 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\State\obj\Debug\State.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\State\bin\Debug\State.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\State\bin\Debug\State.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\State\bin\Debug\State.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\State\bin\Debug\System.ValueTuple.dll
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\State\obj\Debug\State.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\State\obj\Debug\State.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\State\bin\Debug\Stateless.dll
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\State\bin\Debug\Stateless.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\State\bin\Debug\Stateless.xml

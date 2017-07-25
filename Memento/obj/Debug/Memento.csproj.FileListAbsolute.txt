@@ -1,0 +1,6 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Memento\bin\Debug\Memento.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Memento\bin\Debug\Memento.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Memento\bin\Debug\Memento.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Memento\obj\Debug\Memento.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Memento\obj\Debug\Memento.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Memento\obj\Debug\Memento.pdb
