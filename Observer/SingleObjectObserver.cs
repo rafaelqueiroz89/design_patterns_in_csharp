@@ -41,22 +41,22 @@ namespace Observer
 
     public class SingleObjectObserver
     {
-        public static void Main()
-        {
-            var market = new Market();
+        //public static void Main()
+        //{
+        //    var market = new Market();
             
-            //it will come back to this event when the Volatility of the Market changes. We first need to
-            // subscribe the event and then change its property
-            market.PropertyChanged += (sender, eventArgs) =>
-            {
-                if (eventArgs.PropertyName == nameof(market.Volatility))
-                {
-                    WriteLine(market.ToString());
-                }
-            };
+        //    //it will come back to this event when the Volatility of the Market changes. We first need to
+        //    // subscribe the event and then change its property
+        //    market.PropertyChanged += (sender, eventArgs) =>
+        //    {
+        //        if (eventArgs.PropertyName == nameof(market.Volatility))
+        //        {
+        //            WriteLine(market.ToString());
+        //        }
+        //    };
 
-            market.Volatility = 1;
-            market.Volatility = 2;
-        }
+        //    market.Volatility = 1;
+        //    market.Volatility = 2;
+        //}
     }
 }
