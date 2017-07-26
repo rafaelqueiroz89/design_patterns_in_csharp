@@ -3,3 +3,4 @@ C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Strategy\bin\Debu
 C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Strategy\bin\Debug\Strategy.pdb
 C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Strategy\obj\Debug\Strategy.exe
 C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Strategy\obj\Debug\Strategy.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Strategy\obj\Debug\Strategy.csprojResolveAssemblyReference.cache
