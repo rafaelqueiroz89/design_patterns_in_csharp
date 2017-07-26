@@ -60,10 +60,11 @@ namespace DotNetDesignPatternDemos.Behavioral.TemplateMethod
 
     public class Demo
     {
-        static void Main(string[] args)
-        {
-            var chess = new Chess();
-            chess.Run();
-        }
+        //    static void Main(string[] args)
+        //    {
+        //        var chess = new Chess();
+        //        chess.Run();
+        //    }
     }
 }
+
