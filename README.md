@@ -1,7 +1,7 @@
 <b>Design Patterns in C# 7.0</b>
 
 
-In this repository I am doing some exercises and examples about the GOF design patterns in C# 7, so it's pretty much updated. There is an exercise.jpg file on each project folder that is an exercise, and the solution is on the Exercise.cs file (with the Main method), there are also some other pratical examples.
+In this repository I am doing some exercises and examples about the GOF design patterns in C# 7, so it's pretty much updated. There is an exercise.jpg file on each project folder that is an exercise, and the solution is on the Exercise.cs file (with the Main method), there are also some other practical examples.
 
 These examples are for <i>Structural Patterns</i>, <i>Creational Patterns</i> and <i>Behavioral Patterns</i>, it means that Design Patterns are standards that deal with project structures, facilitating communication between their entities. In this way they treat the way objects and classes are arranged in a project in order to form more complex structures.
 

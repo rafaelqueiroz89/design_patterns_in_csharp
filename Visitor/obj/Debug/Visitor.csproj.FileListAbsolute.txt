@@ -1,0 +1,6 @@
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Visitor\obj\Debug\Visitor.csprojResolveAssemblyReference.cache
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Visitor\bin\Debug\Visitor.exe.config
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Visitor\bin\Debug\Visitor.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Visitor\bin\Debug\Visitor.pdb
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Visitor\obj\Debug\Visitor.exe
+C:\Users\rafael.queiroz\Source\Repos\design_patterns_in_ccharp\Visitor\obj\Debug\Visitor.pdb
